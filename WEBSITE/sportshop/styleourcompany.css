@@ -1,0 +1,36 @@
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:grey;
+}
+#logo{
+    margin-top:-2%;
+    margin-left:-2%;
+}
+
+div#landmark{
+    position:relative;
+    width:10%;
+    height:14%;
+    margin-top:-4%;
+    margin-left:3%;
+    font-family: "Impact";
+    font-size:1.3em;
+
+}
+
+.quadro{
+    margin-top:3%;
+}
+
+#content{
+    position:relative;
+    margin-left:30%;
+    padding-right:2%;
+    margin-top: -5%;
+    color:grey;
+    font-family: "Impact";
+    font-size:1.6em;
+}
