@@ -17,7 +17,7 @@ function ready(){
             for(var i=0;i<jackets.length;i++){
                 console.log(jackets[i].Type);
                 
-                el+="<div class='product' id='p"+jackets[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'>"+jackets[i].Name+"</h2></div><div class='columnleft'><p class='description'>"+jackets[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+jackets[i].img+"></div></div>";             
+                el+="<div class='product' id='p"+jackets[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'><a href=\""+jackets[i].Page+">"+jackets[i].Name+"</a></h2></div><div class='columnleft'><p class='description'>"+jackets[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+jackets[i].img+"></div></div>";             
                 
             }
             

@@ -17,7 +17,7 @@ function ready(){
             for(var i=0;i<swim.length;i++){
                 console.log(swim[i].Type);
                 
-                el+="<div class='product' id='p"+swim[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'>"+swim[i].Name+"</h2></div><div class='columnleft'><p class='description'>"+swim[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+swim[i].img+"></div></div>";             
+                el+="<div class='product' id='p"+swim[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'><a href=\""+swim[i].Page+">"+swim[i].Name+"</a></h2></div><div class='columnleft'><p class='description'>"+swim[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+swim[i].img+"></div></div>";             
                 
             }
             

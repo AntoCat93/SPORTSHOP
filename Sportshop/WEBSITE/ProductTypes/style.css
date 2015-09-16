@@ -27,7 +27,7 @@ body{
 
 .column{
     float: left;
-    margin-top: 10 px;
+    margin-top: 10px;
     margin-left: 35px;
     margin-right: 30px;
 }
@@ -50,7 +50,7 @@ body{
 
 #img{
     margin: auto;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 

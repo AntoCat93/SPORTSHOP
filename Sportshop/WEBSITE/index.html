@@ -19,14 +19,21 @@
         </div>
         </br>
         
-        <div class="fascia" id="products" ><h6><a id=click href="TopProducts/topproducts.html">CLICK HERE</a></h6></div>
-        <div class="quadro" id="allproducts" ><a href="ProductTypes/product%20type.html">PRODUCTS</a></div>
+        <div class="fascia" id="products" ><h6><a id=click href="http://localhost/sportshop/TopProducts/topproducts.html">CLICK HERE</a></h6></div>
+        <div class="quadro" id="allproducts" ><a href="http://localhost/sportshop/ProductTypes/product%20type.html">PRODUCTS</a></div>
         <div class="quadro" id="ourcompany"><a href="ourcompany.html">OUR COMPANY</a></div>  <!-- da mettere il link -->
         <div class="quadro" id="ourservices">OUR SERVICES</div>
         <div class="quadro" id="ourdesigners">OUR DESIGNERS</div>
         <div class="quadro" id="allsettings">ALL SETTINGS</div>
-        <div class="quadro" id="latestevents"><a href="LatestEvents/latest%20events.html">LATEST EVENTS</a></div>
+        <div class="quadro" id="latestevents"><a href="http://localhost/sportshop/LatestEvents/latest%20events.html">LATEST EVENTS</a></div>
         <div class="quadro" id="showrooms">SHOWROOMS</div>
+    
+        <form action="handler.php" method="post">
+            <h2>Information Request: </h2>
+            <input type="email" name="adress" placeholder="Your email adress"></input><br><br>
+            <textarea name="message" rows="5" cols="70" placeholder="Message"></textarea><br><br>
+            <input type="submit" id="button" name="send" value="Send"></input><br>
+        </form>
     
     </body>
 </html>

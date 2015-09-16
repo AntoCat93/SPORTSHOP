@@ -29,8 +29,25 @@ div#landmark{
     position:relative;
     margin-left:30%;
     padding-right:2%;
-    margin-top: -5%;
+    margin-top: 4%;
     color:grey;
     font-family: "Impact";
     font-size:1.6em;
+}
+
+h2{
+    position:relative;
+    margin-top: -10%;
+    margin-left:50%;
+}
+
+#orientation{
+    position:relative;
+    margin-left:42%;
+    margin-top:5%;
+}
+a.link{
+    font-family:"Impact";
+    font-size:1.3em;
+    margin-left:2%;
 }

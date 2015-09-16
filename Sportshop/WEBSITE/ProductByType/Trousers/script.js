@@ -17,7 +17,7 @@ function ready(){
             for(var i=0;i<trousers.length;i++){
                 console.log(trousers[i].Type);
                 
-                el+="<div class='product' id='p"+trousers[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'>"+trousers[i].Name+"</h2></div><div class='columnleft'><p class='description'>"+trousers[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+trousers[i].img+"></div></div>";             
+                el+="<div class='product' id='p"+trousers[i].ID+"'><div class='columnleft' id='name'><h2 class='productcolor'><a href=\""+trousers[i].Page+">"+trousers[i].Name+"</a></h2></div><div class='columnleft'><p class='description'>"+trousers[i].Description+"</p></div><div class='columnright'><img class='imgproducts' src=\"images/"+trousers[i].img+"></div></div>";             
                 
             }
             

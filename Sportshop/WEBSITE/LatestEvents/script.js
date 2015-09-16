@@ -17,7 +17,7 @@ function ready(){
             for(var i=0;i<event.length;i++){
                 console.log(event[i].Type);
                 
-                el+="<div class='event' id='e"+event[i].ID+"'><div class='columnleft' id='name'><h2 class='eventcolor'>"+event[i].Name+"</h2></div><div class='columnleft'><p class='description'>"+event[i].Description+"</p></div><div class='columnright'><img class='imgevent' src=\"images/"+event[i].img+"></div></div>";             
+                el+="<div class='event' id='e"+event[i].ID+"'><div class='columnleft' id='name'><h2 class='eventcolor'><a href=\""+event[i].Page+">"+event[i].Name+"</a></h2></div><div class='columnleft'><p class='description'>"+event[i].Description+"</p></div><div class='columnright'><img class='imgevent' src=\"images/"+event[i].img+"></div></div>";             
                 
             }
             
